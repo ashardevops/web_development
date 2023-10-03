@@ -1,0 +1,53 @@
+#a{
+    text-align: center;
+    font-size: 30px;
+    color: #1f05a3;
+}
+
+#b{
+    text-align: center;
+    color: #208304;
+}
+
+#c{
+    text-align: center;
+    color: #a906f5;
+}
+#a0{
+    text-align: center;
+
+}
+#a1{
+    background-color: #208304;
+}
+
+#a2{
+    background-color: #1606f5;
+}
+
+#a3{
+    background-color: #a906f5;
+}
+
+#cc{
+    background-color: blue;
+}
+
+#bb{
+    background-color: #208304;
+}
+
+#qq{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(234, 255, 5, 0.397);
+}
+#gg{
+    background-color: rgba(164, 181, 181, 0.695);
+}
+
+#qqq{
+    text-align: center;
+    margin: left 5px;
+}
