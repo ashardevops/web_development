@@ -1,0 +1,47 @@
+.main{
+    background-color: rgb(127, 178, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+ 
+}
+.h{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+ 
+}
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.cont1{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    padding: 150px;
+}
+.cont2{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    padding: 300px;
+}
+.cont3{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    padding: 150px;
+}
+.f{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
