@@ -1,0 +1,27 @@
+bady{
+    height: 95vh;
+    display: grid;
+    grid-template-areas: "head head"
+    "nav main"
+    "footer footer"
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-colume:
+;}
+nav {
+    grid-area:nav;
+    background-color: rgb(155, 155, 190);
+    text-align: center;
+
+}
+main {
+    grid-area: main;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding:2em;
+
+}
+footer{
+    grid-area: footer;
+    background-color: brown;
+    text-align: center;
+}

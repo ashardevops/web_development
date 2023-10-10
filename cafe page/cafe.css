@@ -1,0 +1,55 @@
+body{
+    height: 95vh;
+    display: grid;
+    grid-template-rows: auto 1fr ;
+    grid-gap: 10px;
+    color: white;
+    font-size: 2em;
+
+}
+header{
+    background: green;
+    text-align: center;
+    padding: 2em;
+}
+main{
+    display: grid;
+    /* display: flex; */
+    background: blue;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+     /* padding: 2em;  */
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.Menu1{
+    background: black;
+    /* height: 90px; */
+    /* width: 30px; */
+}
+.Menu2{
+    background: rgb(22, 72, 1);
+}
+.Menu3{
+    background: chocolate;
+}
+.Menu4{
+    background-color: blueviolet;
+}
+.Menu5{
+    background-color: brown;
+}
+.Menu6{
+    background-color: rgb(92, 2, 64);
+}
+footer{
+    background: red;
+    text-align: center;
+    padding: 2em;
+}
