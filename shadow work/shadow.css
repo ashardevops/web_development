@@ -1,0 +1,21 @@
+body{
+    font-family: 'trebuchet MS';
+
+}
+
+.text{
+    border: 2px solid blue;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.text:hover {
+        overflow: visible;
+}
+
+#aa {
+    color: rgb(158, 28, 28);
+    text-shadow: 10px 0 20px rgb(7, 0, 0);
+}

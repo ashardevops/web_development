@@ -1,0 +1,20 @@
+.ball{
+    display: grid;
+    height: 90;
+    width: 80;
+    margin: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    border: dotted]chocolate  4px;
+    animation: bounce 2s;
+    animation-duration: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce{
+    from{
+        transform: translate(0, 0, 0);
+    }
+    to{
+        transform: translate(640, 0, 0);
+    }
+}
