@@ -1,0 +1,18 @@
+body{
+    margin: 20px;
+}
+.box{
+    background-color: #290;
+    color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 150%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-auto-rows: minmax(150px, aut);
+    grid-gap: 100px;
+    background-color: rgb(225, 74, 60);
+}
