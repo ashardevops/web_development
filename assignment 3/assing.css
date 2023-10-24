@@ -2,15 +2,22 @@ body{
     background: greenyellow;
 }
 .con-main{
+    background-color:blueviolet ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height:200px;
     gap: 20px;
 
 }
-
+.A{
+    display: grid;
+    justify-content: right;
+    text-align: right;
+   position: absolute;
+   right: 80%;
+}
 .con1{
-    background: blue;
+    background: rgb(241, 229, 7);
     
 }
 .con2{
@@ -29,4 +36,8 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+}
+.con5{
+    background-color: red;
+    
 }
