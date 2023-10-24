@@ -1,0 +1,32 @@
+body{
+    background: greenyellow;
+}
+.con-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:200px;
+    gap: 20px;
+
+}
+
+.con1{
+    background: blue;
+    
+}
+.con2{
+    background: pink;
+}
+.con3{
+    background: lightslategrey;
+}
+.con4{
+    background: lightcoral;
+}
+
+@media screen and (max-width:660px){
+    .con-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
