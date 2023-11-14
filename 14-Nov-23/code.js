@@ -4,11 +4,11 @@ console.log("you get your income from your passion.");
 
 }
 else if(age<65 && age>=18){
-    console.log("each mouth you get salary");
+    console.log("each mouth you get salary.");
 
 }
 else if(age<18){
-    console.log("you get an allowance");
+    console.log("you get an allowance.");
 }
 else{
     console.log("the value of the variable is not numerical.");
